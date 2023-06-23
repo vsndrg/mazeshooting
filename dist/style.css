@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: -webkit-linear-gradient(45deg, rgb(17, 39, 75), rgb(75, 12, 12));
+    background: -moz-linear-gradient(45deg, rgb(17, 39, 75), rgb(75, 12, 12));
+    background: linear-gradient(45deg, rgb(17, 39, 75), rgb(75, 12, 12));
+}
+
+#header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 7vh;
+}
+
+.text{
+    width: 30vw;
+    color: aliceblue;
+    background-color: #23292e;
+    border: none;
+    height: 50%;
+}
+
+.but{
+    color: aliceblue;
+    background-color: #ffa13d;
+    border: none;
+    border-radius: 15%;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 2vh;
+}
+
+.room-block{
+    height: 7vh;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vh;
+    overflow: hidden;
+}
+
+.block{
+    height: 86vh;
+    display: flex;
+    align-items: center;
+}
+
+.block-left{
+    display: flex;
+    width: 75vw;
+    height: 86vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-right{
+    width: 25vw;
+    height: 80vh;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.person{
+    display: flex;
+    height: 5%;
+    border: #23292e solid 3px;
+    border-top: none;
+    font-size: 2vh;
+}
+
+.pers-color{
+    background-color: red;
+    width: 10%;
+    border-right: #23292e solid 3px;
+}
+.pers-name{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-right: #23292e solid 3px;
+    color: aliceblue;
+    overflow: hidden;
+}
+
+.block-right-content{
+    height: 100%;
+    width: 80%;
+}
+
+.pers-stat{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: aliceblue;
+    overflow: hidden;
+}
+
+.wrapper{
+    height: 93%;
+    background-color: #425054;
+    border-radius: 0px 0px 15px 15px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.title-info{
+    background-color: aliceblue;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 15px 0px 0px;
+    color: black;
+    font-size: 3vh;
+}
+
+#glCanvas{
+    background-color: red;
+    width: 93%;
+    height: 80vh;
+    border-radius: 15px;
+}
